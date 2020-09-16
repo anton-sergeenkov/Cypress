@@ -1,1 +1,10 @@
-{}
+{
+    "video": true,
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "reportDir": "cypress/reports/integration",
+        "overwrite": false,
+        "html": true,
+        "json": true
+    }
+}
