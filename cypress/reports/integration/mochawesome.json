@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2020-09-16T15:28:32.096Z",
-    "end": "2020-09-16T15:28:34.216Z",
-    "duration": 2120,
+    "start": "2020-09-20T17:36:22.110Z",
+    "end": "2020-09-20T17:36:24.377Z",
+    "duration": 2267,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "32a0f274-4060-4270-802c-67a234571aa4",
+      "uuid": "a60316b0-9928-4575-aaf0-7ac8f776e947",
       "title": "",
       "fullFile": "cypress\\integration\\starter.spec.js",
       "file": "cypress\\integration\\starter.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "6cb004ac-366e-4bfa-b3d1-6cc1fd83ae32",
+          "uuid": "b8512a4c-82d3-4cba-af84-f9e186bba1d3",
           "title": "Starter",
           "fullFile": "",
           "file": "",
@@ -38,29 +38,29 @@
               "title": "Starter",
               "fullTitle": "Starter Starter",
               "timedOut": null,
-              "duration": 167,
+              "duration": 162,
               "state": "passed",
               "speed": "slow",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
-              "code": "cy.contains('Hello');",
+              "code": "cy.contains('Hello');\ncy.checkA11y();",
               "err": {},
-              "uuid": "db909e93-2946-46e0-87bf-87957c205e4b",
-              "parentUUID": "6cb004ac-366e-4bfa-b3d1-6cc1fd83ae32",
+              "uuid": "7c906429-5893-4d88-b3ce-6aed279b5fe3",
+              "parentUUID": "b8512a4c-82d3-4cba-af84-f9e186bba1d3",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "db909e93-2946-46e0-87bf-87957c205e4b"
+            "7c906429-5893-4d88-b3ce-6aed279b5fe3"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 167,
+          "duration": 162,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -84,7 +84,7 @@
       "options": {
         "quiet": false,
         "reportFilename": "mochawesome",
-        "saveHtml": false,
+        "saveHtml": true,
         "saveJson": true,
         "consoleReporter": "spec",
         "useInlineDiffs": false,
@@ -96,7 +96,7 @@
       "options": {
         "reportDir": "cypress/reports/integration",
         "overwrite": false,
-        "html": false,
+        "html": true,
         "json": true
       },
       "version": "5.1.0"
