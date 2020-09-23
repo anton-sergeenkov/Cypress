@@ -11,5 +11,6 @@
 		"mochawesome-report-generator": "^5.1.0",
 		"axe-core": "^4.0.2",
 		"cypress-axe": "^0.8.1"
-	}
+	},
+	"version": "1.0.1"
 }
