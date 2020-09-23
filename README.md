@@ -1,6 +1,6 @@
 
 ### Скрипты
-```
+```bash
 # 1. Запускаем сервер по адресу http://localhost:8081/index
 http-server
 
